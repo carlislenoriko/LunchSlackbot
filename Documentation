@@ -1,0 +1,30 @@
+Minimum Viable Product - command line requests that search Yelp for restaurant recommendations in a large general area, returns first 3 search results (returns searched cuisine, restaurant name, address, price range)
+- next: search specific neighborhoods/street addresses (whatever is possible with Yelp API)
+- then: put into Slack as a Slackbot
+- later: different interactions with Slackbot (build in Slack? Python?) such as "I don't know what I want to eat, give me inspiration!"
+
+Stretch goals:
+- Option for recommendations based on the weather
+- Option for recommendations based on the Doomsday Clock
+
+
+
+
+
+
+User Story
+
+User asks for Slackbot or gots to Slackbot private chat
+“Slackbot, I’m hungry!” or “I’m hungry!”
+
+Slackbot replies and asks user what they want to eat.
+
+User gives a cuisine term and location.
+
+Slackbot gives 3 options (restaurant name, street address, price range) with help from Yelp.
+
+User can ask for more options, Slackbot will give 3 more with each request.
+
+When done, user can thank Slackbot or have some other humorous exchange with it to end the exchange.
+
+BONUS - User can ask Slackbot to take into account the current weather patterns or Doomsday Clock time.
